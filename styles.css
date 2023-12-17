@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#basket {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #000;
+    overflow: hidden;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
